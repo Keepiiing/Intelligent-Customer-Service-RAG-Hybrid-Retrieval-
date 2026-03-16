@@ -8,7 +8,6 @@
 - 审计日志和用户反馈闭环
 - 开箱即跑的 FastAPI 服务
 
-你可以直接把这个仓库推到 GitHub，别人拉取后按本文档执行即可运行。
 
 ## 1. 项目定位
 
@@ -204,9 +203,7 @@ python -m unittest discover -s tests
 
 这两个文件已经加入 `.gitignore`，不会污染 Git 仓库。
 
-## 11. 你后续可以怎么扩展
-
-这个仓库已经给你留好了扩展点：
+## 11. 后续扩展
 
 ### 检索升级
 
@@ -231,17 +228,3 @@ python -m unittest discover -s tests
 - 加 CI/CD
 - 加统一日志、监控和告警
 - 加权限认证和租户隔离
-
-## 12. 推荐提交到 GitHub 的方式
-
-```bash
-git init
-git add .
-git commit -m "feat: add enterprise-style smart customer service rag project"
-```
-
-然后推送到你的 GitHub 仓库即可。
-
-## 13. 一句话介绍这个项目
-
-这是一个按企业项目思路组织的智能客服 RAG 单仓库示例：应用层负责接口接入，领域层负责核心模型，服务层负责检索/生成/合规，编排层负责主链路，基础设施层负责知识库和反馈存储，因此它既能本地直接运行，也容易继续扩展成真正的企业级系统。
