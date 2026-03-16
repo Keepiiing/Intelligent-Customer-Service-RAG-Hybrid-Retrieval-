@@ -1,0 +1,4 @@
+2026-03-16T05:58:39.174098+00:00 | trace_id=1aaab09fde40430aa7cf3f431a3954a8 | session_id=case-002 | route=default_route | compliance=True | question=火星殖民地今天几点发下午茶？ | sources=0
+2026-03-16T05:58:39.177143+00:00 | trace_id=79b4326e65b14e43a39fb1a611f1c5fa | session_id=case-001 | route=faq_hybrid_route | compliance=True | question=境外消费没有返现怎么办？ | sources=2
+2026-03-16T05:59:13.490420+00:00 | trace_id=42c25860cb7c4f328f5cbf40709af013 | session_id=case-002 | route=default_route | compliance=True | question=火星殖民地今天几点发下午茶？ | sources=0
+2026-03-16T05:59:13.493461+00:00 | trace_id=8ce8f0fdc15e4d2d9a3d240b81472aeb | session_id=case-001 | route=faq_hybrid_route | compliance=True | question=境外消费没有返现怎么办？ | sources=2
